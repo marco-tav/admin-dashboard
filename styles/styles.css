@@ -19,7 +19,7 @@ body {
 }
 
 .sidebar {
-    background-color: skyblue;
+    background-color: #15803d;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
 }
