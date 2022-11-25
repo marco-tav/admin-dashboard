@@ -1,3 +1,104 @@
+@font-face { /* FW: 400, FS: normal */
+    font-family: 'Oswald';
+    src: 
+        url('../resources/fonts/oswald/oswald-regular-webfont.woff2') format('woff2'),
+        url('../resources/fonts/oswald/oswald-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face { /* FW: 400, FS: italic */
+    font-family: 'Oswald';
+    src: 
+        url('../resources/fonts/oswald/oswald-regularitalic-webfont.woff2') format('woff2'),
+        url('../resources/fonts/oswald/oswald-regularitalic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face { /* FW: 500, FS: normal */
+    font-family: 'Oswald';
+    src: 
+        url('../resources/fonts/oswald/oswald-medium-webfont.woff2') format('woff2'),
+        url('../resources/fonts/oswald/oswald-medium-webfont.woff')
+        format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face { /* FW: 500, FS: italic */
+    font-family: 'Oswald';
+    src: 
+        url('../resources/fonts/oswald/oswald-mediumitalic-webfont.woff2') format('woff2'),
+        url('../resources/fonts/oswald/oswald-mediumitalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face { /* FW: 700, FS: normal */
+    font-family: 'Oswald';
+    src: 
+        url('../resources/fonts/oswald/oswald-bold-webfont.woff2') format('woff2'),
+        url('../resources/fonts/oswald/oswald-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face { /* FW: 700, FS: italic */
+    font-family: 'Oswald';
+    src: 
+        url('../resources/fonts/oswald/oswald-bolditalic-webfont.woff2') format('woff2'),
+        url('../resources/fonts/oswald/oswald-bolditalic-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face { /* FW: 400, FS: normal */
+    font-family: 'Source Serif Pro';
+    src: 
+        url('../resources/fonts/sourceserifpro/sourceserifpro-regular-webfont.woff2') format('woff2'),
+        url('../resources/fonts/sourceserifpro/sourceserifpro-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face { /* FW: 400, FS: italic */
+    font-family: 'Source Serif Pro';
+    src: 
+        url('../resources/fonts/sourceserifpro/sourceserifpro-regularit-webfont.woff2') format('woff2'),
+        url('../resources/fonts/sourceserifpro/sourceserifpro-regularit-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face { /* FW: 700, FS: normal */
+    font-family: 'Source Serif Pro';
+    src: 
+        url('../resources/fonts/sourceserifpro/sourceserifpro-bold-webfont.woff2') format('woff2'),
+        url('../resources/fonts/sourceserifpro/sourceserifpro-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face { /* FW: 700, FS: italic */
+    font-family: 'Source Serif Pro';
+    src: 
+        url('../resources/fonts/sourceserifpro/sourceserifpro-boldit-webfont.woff2') format('woff2'),
+        url('../resources/fonts/sourceserifpro/sourceserifpro-boldit-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
 html {
     box-sizing: border-box;
 }
