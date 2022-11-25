@@ -133,6 +133,10 @@ body {
     align-content: start;
 }
 
+.sidebar img {
+    max-width: 40px;
+}
+
 .branding,
 .nav-container,
 .settings-container {
@@ -154,10 +158,14 @@ body {
 .sidebar a {
     color: white;
     text-decoration: none;
+    align-self: flex-end;
 }
 
 .sidebar li {
     list-style: none;
+    display: flex;
+    align-items: start;
+    gap: 15px;
 }
 
 .header {
