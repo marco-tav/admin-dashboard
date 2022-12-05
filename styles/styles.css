@@ -122,11 +122,11 @@ body {
 .sidebar {
     background-color: #15803d;
     color: white;
-    padding-left: 40px;
+    padding-left: 35px;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     font-family: 'Oswald';
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-weight: 400;
     display: grid;
     align-items: start;
@@ -134,7 +134,7 @@ body {
 }
 
 .sidebar img {
-    max-width: 40px;
+    max-width: 45px;
 }
 
 .branding,
@@ -154,12 +154,12 @@ body {
     margin-left: -5px;
 }
 .branding a {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
 .branding img {
-    max-width: 55px;
+    max-width: 60px;
 }
 
 .sidebar li {
