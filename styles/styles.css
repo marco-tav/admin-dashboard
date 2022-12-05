@@ -134,7 +134,7 @@ body {
 }
 
 .sidebar img {
-    max-width: 40px;
+    max-width: 45px;
 }
 
 .branding,
@@ -150,15 +150,13 @@ body {
     gap: 20px;
 }
 
-.branding > p {
+.branding a {
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 700;
 }
 
-.sidebar a {
-    color: white;
-    text-decoration: none;
-    align-self: flex-end;
+.branding img {
+    max-width: 60px;
 }
 
 .sidebar li {
@@ -166,6 +164,12 @@ body {
     display: flex;
     align-items: start;
     gap: 15px;
+}
+
+.sidebar a { /*Remember all link elements are inside li elements, making these flex items*/
+    color: white;
+    text-decoration: none;
+    align-self: flex-end;
 }
 
 .header {
