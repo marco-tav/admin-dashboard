@@ -6,4 +6,4 @@ course of The Oding Project
 
 ## Status
 
-Just started
+Sidebar layout is done. Sizes and other details, such as font type and color, and icons may still change.
