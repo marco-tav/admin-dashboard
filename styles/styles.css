@@ -126,7 +126,7 @@ body {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     font-family: 'Oswald';
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     font-weight: 400;
     display: grid;
     align-items: start;
@@ -155,7 +155,7 @@ body {
 }
 .branding a {
     font-size: 2.6rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .branding img {
@@ -166,7 +166,7 @@ body {
     list-style: none;
     display: flex;
     align-items: start;
-    gap: 15px;
+    gap: 20px;
 }
 
 .sidebar a { /*Remember all link elements are inside li elements, making these flex items*/
