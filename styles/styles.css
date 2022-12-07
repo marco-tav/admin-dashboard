@@ -159,6 +159,8 @@ body {
     height: 100vh;
 }
 
+/*----------------------------------SIDEBAR----------------------------------*/
+
 .sidebar {
     background-color: #15803d;
     color: white;
@@ -217,15 +219,24 @@ body {
     align-self: flex-end;
 }
 
+/*--------------------------------HEADER-------------------------------*/
+
 .header {
     background-color: white;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr;
     box-shadow: 0px 5px 8px #cccccc;
     z-index: 2;
 }
+
+.header-top {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+/*------------------------------MAIN CONTENT------------------------------*/
 
 .main-content {
     background-color: #dfdfdf;
