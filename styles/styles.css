@@ -9,12 +9,15 @@
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1.5fr 5fr;
+  font-family: var(--sans-serif-system);
 }
 
 nav {
   grid-row: 1 / 3;
   grid-column: 1 / 2;
   background-color: darkgreen;
+  display: flex;
+  flex-direction: column;
 }
 
 .header-container {
