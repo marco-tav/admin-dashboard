@@ -3,7 +3,7 @@
   --serif-system: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 }
 
-.main-grid-container {
+.main-layout-container {
   width: 100vw;
   min-height: 100vh;
   display: grid;
