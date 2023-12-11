@@ -75,6 +75,9 @@ nav > div:first-child img {
   grid-row: 1 / 2;
   grid-column: 2 / 3;
   background-color: #eab308;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1.5fr;
 }
 
 .main-content-container {
