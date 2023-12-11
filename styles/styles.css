@@ -91,14 +91,15 @@ nav > div:first-child img {
 
 .search {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 10px;
+  padding-left: 50px;
 }
 
 .search > input {
   appearance: none;
-  width: 75%;
+  width: 80%;
   height: 2.2rem;
   border: none;
   border-radius: 1.1rem;
