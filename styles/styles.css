@@ -7,7 +7,7 @@
   width: 100vw;
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 0.8fr 4fr;
   grid-template-rows: 1.5fr 5fr;
   font-family: var(--sans-serif-system);
 }
@@ -18,19 +18,57 @@ nav {
   background-color: darkgreen;
   display: flex;
   flex-direction: column;
+  padding: 25px 15px 15px 20px;
+  gap: 40px;
 }
 
 nav ul {
   padding-left: 0px;
+  display: grid;
+  gap: 1.2rem;
+}
+
+nav > div:nth-child(2) > ul {
+  grid-template-rows: repeat(6, 1fr);
+}
+
+nav > div:last-child > ul {
+  grid-template-rows: repeat(3, 1fr);
 }
 
 nav li {
   list-style: none;
 }
 
-nav a {
+nav div:first-child a,
+nav li a{
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
   text-decoration: none;
   color: white;
+}
+
+nav li a {
+  gap: 15px;
+}
+
+nav span {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+nav img {
+  width: 1.8rem;
+}
+
+nav > div:first-child span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+nav > div:first-child img {
+  width: 2.4rem;
 }
 
 .header-container {
