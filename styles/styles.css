@@ -140,6 +140,7 @@ nav > div:first-child img {
   justify-content: flex-start;
   align-items: center;
   padding-left: 50px;
+  padding-bottom: 10px;
   gap: 15px;
 }
 
