@@ -254,6 +254,7 @@ h2 {
 
 .announcement p {
   font-size: 0.9rem;
+  color: rgb(105, 105, 105);
 }
 
 .trending-container {
@@ -261,4 +262,28 @@ h2 {
   grid-column: 2 / 3;
   border: 2px solid red;
   padding: 30px;
+}
+
+.trending-container .trend {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.trending-container img {
+  width: 50px;
+  border-radius: 25px;
+}
+
+.trend p {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.trend > div > p:first-child {
+  font-weight: 600;
+}
+
+.trend > div > p:last-child {
+  color: rgb(105, 105, 105);
 }
