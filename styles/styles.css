@@ -125,6 +125,8 @@ nav > div:first-child img {
   align-items: center;
   font-weight: 600;
   font-size: 1.3rem;
+  justify-self: end;
+  padding-right: 50px;
 }
 
 .profile img {
@@ -179,6 +181,9 @@ nav > div:first-child img {
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-items: center;
+  justify-self: end;
+  gap: 30px;
+  padding-right: 50px;
 }
 
 .post-controls button {
