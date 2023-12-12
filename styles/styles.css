@@ -132,7 +132,7 @@ nav > div:first-child img {
 
 .lower-header {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
 }
 
 .greeting {
@@ -165,6 +165,31 @@ nav > div:first-child img {
   font-size: 1.6rem;
 }
 
+.post-controls {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.post-controls button {
+  width: 100px;
+  height: 40px;
+  background-color: darkgreen;
+  color: rgb(240, 240, 240);
+  font-weight: 700;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 20px;
+}
+
+.post-controls button:first-child {
+  justify-self: flex-end;
+}
+
+.post-controls button:last-child {
+  justify-self: flex-start;
+}
 /*--------------------- MAIN CONTENT DECLARATIONS -------------------*/
 
 .main-content-container {
